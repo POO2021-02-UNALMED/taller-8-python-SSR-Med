@@ -1,6 +1,7 @@
 from deportista import Deportista
 from persona import Persona
 class Futbolista(Deportista,Persona):
+    #Comentario para que se actualice
     listaFutbolistas = []
     def __init__(self,nombre,edad,altura,sexo,añospracticando,golesMarcados,tarjetasRojas,piernaHabil):
         Persona.__init__(self, nombre, edad, altura, sexo)
