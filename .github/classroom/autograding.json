@@ -3,7 +3,7 @@
     {
       "name": "TestContructoresHerencia",
       "setup": "sudo -H pip3 install pytest",
-      "run": "pytest testHerenciaconstructores.py",
+      "run": "pytest testHerenciaConstructores.py",
       "input": "",
       "output": "",
       "comparison": "included",
